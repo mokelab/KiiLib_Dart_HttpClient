@@ -9,7 +9,7 @@ environment:
 dependencies:
   http: "0.12.0+2"
   KiiLibCore:
-    path: /Users/fkm/dev/kii/KiiLib-Dart/core
+    path: ../core
 
 dev_dependencies:
   test: "^1.5.1"
