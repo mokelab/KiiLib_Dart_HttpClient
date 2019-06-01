@@ -5,7 +5,9 @@ import 'dart:convert';
 
 void main() {
   test('send POST request', () async {
-    HttpClientImpl client = HttpClientImpl();
+    var context =
+        KiiContext("demoAppID", "demoAppKey", "https://api.kii.com/api", null);
+    HttpClientImpl client = HttpClientImpl(context);
     var result = await client.sendJson(
         Method.POST,
         'https://gae-echoserver.appspot.com',
@@ -21,5 +23,7 @@ void main() {
     expect(json["header"]["Content-Type"], "application/json; charset=utf-8");
     expect(json["method"], "POST");
     expect(body["a"], "b");
+    expect(json["header"]["X-Kii-Appid"], "demoAppID");
+    expect(json["header"]["X-Kii-Appkey"], "demoAppKey");
   });
 }
