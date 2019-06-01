@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
 import 'package:kiilib_core/kiilib_core.dart';
-import 'package:KiiLibHttpClient/kiilibHttpClient.dart';
+import 'package:kiilib_http_client/kiilib_http_client.dart';
 import 'dart:convert';
 
 void main() {
