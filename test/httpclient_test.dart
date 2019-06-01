@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:KiiLibCore/KiiLibCore.dart';
+import 'package:kiilib_core/kiilib_core.dart';
 import 'package:KiiLibHttpClient/kiilibHttpClient.dart';
 import 'dart:convert';
 

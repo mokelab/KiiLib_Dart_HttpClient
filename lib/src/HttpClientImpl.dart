@@ -1,4 +1,4 @@
-import 'package:KiiLibCore/KiiLibCore.dart';
+import 'package:kiilib_core/kiilib_core.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
