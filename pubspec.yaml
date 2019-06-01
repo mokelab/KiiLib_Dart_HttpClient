@@ -3,7 +3,7 @@ description: HTTP client for KiiLib
 author: fkm <fkm@mokelab.com>
 homepage: https://github.com/mokelab/KiiLib_Dart_HttpClient
 
-version: 0.0.1+1
+version: 0.0.1+2
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
